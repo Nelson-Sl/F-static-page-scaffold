@@ -22,13 +22,37 @@ ul {
 header {
   display: flex;
   justify-content: space-between;
-  
+  background-color: #3b5998;
+  align-items: center;
+	color: white;
 }
 
 header nav{
-  margin: 20px 277px 0 277px;
+  margin: 0 277px 0 277px;
 }
 
-.nav-title * {
-  display: inline;
+.nav-title {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.nav-title.page-title {
+  font-size: 35px;
+  margin-right: 2px;
+}
+
+.nav-title.register-button {
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #42b72a;
+  border: none;
+}
+
+.nav-select select{
+  appearance: none;
+}
+
+.nav-option {
+  color: white;
 }
