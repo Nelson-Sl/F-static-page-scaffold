@@ -6,6 +6,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #e9ebee;
   font-size: 16px;
 }
 
@@ -27,7 +28,7 @@ header {
 	color: white;
 }
 
-header nav{
+header nav, .main-intro{
   margin: 0 277px 0 277px;
 }
 
