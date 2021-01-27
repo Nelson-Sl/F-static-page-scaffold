@@ -32,12 +32,12 @@ nav {
   align-items: center;
 }
 
-.logo-area .logo {
+.logo-area.logo {
   font-size: 35px;
   margin-right: 2px;
 }
 
-.logo-area .register-button {
+.logo-area.register-button {
   margin-left: 10px;
   padding: 6px;
   color: inherit;
@@ -59,8 +59,8 @@ main {
   align-items: center;
 }
 
-.main-content .facebook-join-method, 
-.facebook-join-method .figure-area {
+.facebook-join-method, 
+.figure-area {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,27 +68,27 @@ main {
   background-color: white;
 }
 
-.main-content .facebook-join-method {
+.facebook-join-method {
   width: 49%;
 }
 
-.figure-area .image {
+.figure-area.image {
   margin-top: 10px;
 }
 
-.figure-area .image-intro {
+.figure-area.image-intro {
   text-align: center;
   margin-top: 10px;
   font-weight: bold;
   font-size: 20px;
 }
 
-.figure-area .image-description {
+.figure-area.image-description {
   color: lightgrey;
   font-weight: initial;
 }
 
-.facebook-join-method .start-button {
+.facebook-join-method.start-button {
   margin-top: 50px;
   margin-bottom: 20px;
   padding: 10px;
