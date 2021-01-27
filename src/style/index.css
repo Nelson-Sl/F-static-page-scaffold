@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body,
 html {
   margin: 0;
@@ -10,94 +14,85 @@ body {
   font-size: 16px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 header {
-  display: flex;
-  justify-content: space-between;
   background-color: #3b5998;
-  align-items: center;
 	color: white;
 }
 
-header nav, main{
+nav {
   margin: 0 230px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-main {
-  margin-bottom: 50px;
-}
-
-.nav-title {
+.logo-area {
   display: flex;
   color: white;
   align-items: center;
 }
 
-.nav-title.page-title {
+.logo-area .logo {
   font-size: 35px;
   margin-right: 2px;
 }
 
-.nav-title.register-button {
+.logo-area .register-button {
   margin-left: 10px;
-  padding: 10px;
+  padding: 6px;
+  color: inherit;
   background-color: #42b72a;
   border: none;
 }
 
-.nav-select select{
-  appearance: none;
+main {
+  margin: 0 230px 50px 230px;
 }
 
-.nav-option {
-  color: white;
-}
-
-.main-intro {
+.intro {
   margin-bottom: 30px;
 }
 
 .main-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.main-content.area {
+.main-content .facebook-join-method, 
+.facebook-join-method .figure-area {
   display: flex;
-  flex-wrap: wrap;
-  margin-right: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: white;
 }
 
-.main-content.image {
-  margin-left: 25%;
+.main-content .facebook-join-method {
+  width: 49%;
 }
 
-.main-content.image-intro {
+.figure-area .image {
+  margin-top: 10px;
+}
+
+.figure-area .image-intro {
+  text-align: center;
+  margin-top: 10px;
   font-weight: bold;
-  margin-top: 20px;
   font-size: 20px;
 }
 
-.main-content.image-content {
-  text-align: center;
+.figure-area .image-description {
   color: lightgrey;
+  font-weight: initial;
 }
 
-.main-content.start-button {
-  margin-top: 60px;
+.facebook-join-method .start-button {
+  margin-top: 50px;
   margin-bottom: 20px;
   padding: 10px;
   background-color: #e9ebee;
-  border: 1px solid lightgrey
+  border: 1px solid lightgrey;
+  width: 10%;
 }
